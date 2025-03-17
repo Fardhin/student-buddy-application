@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="105dp"
+            android:fontFamily="@font/autourone_reguler"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:text="About Us"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:padding="15dp"
+        android:text="        Welcome to the College Student App, your all-in-one solution for navigating and optimizing your college experience. Designed specifically for students like you, this app aims to simplify your day-to-day life and enhance your connection with the college community."
+        android:textAlignment="textStart"
+        android:textColor="#1E1D1D"
+        android:textSize="18sp" />
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="17dp"
+            android:padding="5dp"
+            android:text="GET IN TOUCH For Admission Contact:"
+            android:textColor="#121111"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/faraz_linkedIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="47dp"
+            android:padding="5dp"
+            android:text="Chairman: 9845006976"
+            android:textColor="#151515"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="67dp"
+            android:padding="5dp"
+            android:text="Principal :9880826883"
+            android:textColor="#131313"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/contact2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="87dp"
+            android:padding="5dp"
+            android:text="Email: principaljvit@gmail.com"
+            android:textColor="#121111"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/contact1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="107dp"
+            android:padding="5dp"
+            android:text="Placement : 7019891095"
+            android:textColor="#131313"
+            android:textSize="16sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="127dp"
+            android:padding="5dp"
+            android:text="Placement Email: po.jvitech@gmail.com"
+            android:textColor="#171717"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
